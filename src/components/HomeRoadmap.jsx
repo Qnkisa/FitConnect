@@ -2,37 +2,6 @@ import React,{useRef,useEffect} from 'react'
 
 export default function HomeRoadmap() {
 
-    
-    
-    const observedElementRef = useRef();
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("active");
-                    }else{
-                        entry.target.classList.remove("active")
-                    }
-                });
-            }, 
-            {
-                threshold:1
-            }
-        );
-    
-        if (observedElementRef.current) {
-            observer.observe(observedElementRef.current);
-        }
-    
-        return () => {
-            if (observedElementRef.current) {
-                observer.unobserve(observedElementRef.current);
-            }
-        };
-    }, []);
-
   return (
     <div className="home-roadmap">
         <div className="roadmap-top">
@@ -44,7 +13,7 @@ export default function HomeRoadmap() {
                     <p>08</p>
                 </div>
             </div>
-            <p className='roadmap-year' ref={observedElementRef}>2023</p>
+            <p className='roadmap-year'>2023</p>
         </div>
         <div className="roadmap-grid">
             <div className="roadmap-div">

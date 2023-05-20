@@ -28,7 +28,7 @@ header{
     left: 0;
     top: 0;
     background-color: white;
-    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all .3s;
 }
 
@@ -91,14 +91,12 @@ nav ul li a:hover{
     background-color: var(--color);
     padding: 15px 25px;
     border-radius: 5px;
-    box-shadow: 0 0 12.5px 1px var(--color);
     transition: all .3s;
     font-weight: 700;
 }
 
 .website-cta a:hover{
-    box-shadow: 0 0 18px 3px var(--color);
-    background-color: var(--hover-color);
+    box-shadow: 0 0 12.5px 1px var(--color);
 }
 
 .background-container{
@@ -728,15 +726,6 @@ border-radius: 10px;
 width: 200px;
 }
 
-.roadmap-year{
-    rotate: -90deg;
-    transition: all .5s;
-}
-
-.roadmap-year.active{
-    rotate: 0deg;
-}
-
 /*footer start*/
 
 footer{
@@ -784,6 +773,10 @@ footer{
 
 .footer-div-rights p{
     font-weight: bold;
+}
+
+.footer-div-rights p a{
+    color: black;
 }
 
 .footer-div-rights span{

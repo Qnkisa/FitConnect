@@ -45,7 +45,7 @@ export default function Header({scrollToAbout}) {
     <header className={visible ? "header-visible" : "header-hidden"}>
         <nav>
             <div className="nav-logo">
-                <img src="/website-logo.png" alt="" />
+                <img src="/fitconnect-real-logo.png" alt="" />
                 <p>FitConnect</p>
             </div>
             <ul className='menu'>

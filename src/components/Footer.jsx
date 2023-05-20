@@ -27,7 +27,7 @@ export default function Footer() {
     <footer>
         <div className="footer-div">
             <div className="nav-logo">
-                <img src="/website-logo.png" alt="" />
+                <img src="/fitconnect-real-logo.png" alt="" />
                 <p>FitConnect</p>
             </div>
         </div>
@@ -44,6 +44,7 @@ export default function Footer() {
             <div className="footer-div-rights">
                 <p>@FTC 2023</p>
                 <span>All rights reserved.</span>
+                <p>by <a href="https://github.com/Qnkisa" target='_blank'>Yanislav Angelov</a></p>
             </div>
         </div>
     </footer>

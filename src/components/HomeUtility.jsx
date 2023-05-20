@@ -42,7 +42,7 @@ export default function HomeUtility() {
             <div className="home-utility-top">
                 <h4>Token <span>Utility</span> </h4>
                 <div className="utility-logo">
-                    <img src="/website-logo.png" alt="" />
+                    <img src="/fitconnect-real-logo.png" alt="" />
                 </div>
             </div>
             <div className="home-utility-text" ref={observedElementRef1}>
